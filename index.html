@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knights</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Knights</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#">Games</a></li>
+        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#">Contact</a></li>
+        <li class="nav-item">
+          <a class="btn btn-light fw-bold ms-2" href="#">Buy Ticket</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <img src="Images/bg_1.jpeg" alt="Hero Background">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>How long can you last?</h1>
+    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+    <a href="#" class="watch-btn">
+      <div class="play-circle">▶</div>
+      WATCH GAMES
+    </a>
+  </div>
+</section>
+
+<!-- Overlap Match Info Rectangle -->
+<div class="container position-relative">
+  <div class="bg-dark text-white d-flex align-items-center justify-content-between p-4 rounded shadow position-absolute top-0 start-50 translate-middle-x"
+       style="margin-top:-40px; width:90%; max-width:1100px;">
+    <div class="d-flex align-items-center">
+      <img src="images/team-2.jpeg"
+           class="rounded-circle me-2" style="width:40px; height:40px;" alt="">
+      <div>
+        <small class="d-block">Knights Warrior</small>
+        <small class="d-block">Mighty Falcons</small>
+      </div>
+    </div>
+    <div>
+      <small class="d-block">FIFA Champions League</small>
+      <small>Semi-Final</small>
+    </div>
+    <div class="text-center">
+      <span class="d-block fw-bold">-2295</span>
+      <small>Days</small>
+    </div>
+    <div class="text-center">
+      <span class="d-block fw-bold">21</span>
+      <small>Hours</small>
+    </div>
+    <div class="text-center">
+      <span class="d-block fw-bold">05</span>
+      <small>Minutes</small>
+    </div>
+    <div class="text-center">
+      <span class="d-block fw-bold">24</span>
+      <small>Seconds</small>
+    </div>
+    <a href="#" class="btn btn-warning fw-bold">Buy Tickets</a>
+  </div>
+</div>
+
+<!-- White Section: Game Report -->
+<section class="py-5 bg-white">
+  <div class="container py-5">
+    <p class="text-uppercase text-muted fw-bold">Game Report</p>
+    <h2 class="fw-bold mb-5">Great Win In Final Game</h2>
+    <div class="row g-4 align-items-center">
+      <!-- Left Score Card -->
+      <div class="col-lg-6">
+        <div class="card shadow border-0">
+          <div class="card-body text-center">
+            <small class="text-uppercase text-muted d-block mb-3">Tue. Feb 21, 2019; FIFA Champions League</small>
+            <div class="d-flex align-items-center justify-content-around">
+              <div>
+                <img src="Images/team-1.jpeg"
+                     class="rounded-circle mb-2" style="width:80px; height:80px;" alt="">
+                <p class="fw-bold mb-0">Knight Warrior</p>
+              </div>
+              <h1 class="fw-bold display-4 mb-0">3</h1>
+              <h1 class="fw-bold display-4 mb-0">1</h1>
+              <div>
+                <img src="Images/team-2.jpeg"
+                     class="rounded-circle mb-2" style="width:80px; height:80px;" alt="">
+                <p class="fw-bold mb-0">Mighty Falcons</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-warning fw-bold mt-4">More Details</a>
+          </div>
+        </div>
+      </div>
+      <!-- Right Image with Play Button -->
+      <div class="col-lg-6 position-relative">
+        <img src="Images/victory.jpeg"
+             class="img-fluid rounded shadow" alt="">
+        <a href="#"
+           class="position-absolute top-50 start-50 translate-middle d-flex justify-content-center align-items-center bg-white text-dark rounded-circle"
+           style="width:70px; height:70px; text-decoration:none; font-size:24px;">
+          ▶
+        </a>
+        <div class="position-absolute bottom-0 start-50 translate-middle-x text-black fw-bold mb-3">
+          Watch Highlights
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GAME SCHEDULE -->
+  <section class="container py-5">
+    <h5 class="text-uppercase text-muted mb-3">Game Schedule</h5>
+
+    <div id="gameCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+      <div class="carousel-inner">
+
+        <!-- First Slide -->
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="game-card">
+                <img src="Images/team-1.jpeg" alt="Team">
+                <p class="text-muted">Home @ Arena</p>
+                <h5 class="fw-bold">Knight Warrior</h5>
+                <small class="text-muted">April 17, 2018</small>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="game-card">
+                <img src="Images/team-2.jpeg" alt="Team">
+                <p class="text-muted">Home @ Arena</p>
+                <h5 class="fw-bold">Knight Warrior</h5>
+                <small class="text-muted">April 17, 2018</small>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="game-card">
+                <img src="Images/team-3.jpeg" alt="Team">
+                <p class="text-muted">Home @ Arena</p>
+                <h5 class="fw-bold">Knight Warrior</h5>
+                <small class="text-muted">April 17, 2018</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Slide -->
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="game-card">
+                <img src="Images/team-4.jpeg" alt="Team">
+                <p class="text-muted">Home @ Arena</p>
+                <h5 class="fw-bold">Knight Warrior</h5>
+                <small class="text-muted">April 18, 2018</small>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="game-card">
+                <img src="Images/team-5.jpeg" alt="Team">
+                <p class="text-muted">Home @ Arena</p>
+                <h5 class="fw-bold">Knight Warrior</h5>
+                <small class="text-muted">April 18, 2018</small>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="game-card">
+                <img src="Images/team-6.jpeg" alt="Team">
+                <p class="text-muted">Home @ Arena</p>
+                <h5 class="fw-bold">Knight Warrior</h5>
+                <small class="text-muted">April 18, 2018</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#gameCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#gameCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+<!-- Features Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row text-center">
+      
+      <!-- Feature 1 -->
+      <div class="col-md-3 d-flex align-items-start">
+        <i class="bi bi-lightning-fill fs-1 text-warning me-3"></i>
+        <div class="text-start">
+          <h5>
+Senior Team</h5>
+          <p class="mb-0">A small river named Duden flows by their place and supplies.</p>
+        </div>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="col-md-3 d-flex align-items-start">
+        <i class="bi bi-phone-fill fs-1 text-warning me-3"></i>
+        <div class="text-start">
+          <h5>For Kids
+</h5>
+          <p class="mb-0">A small river named Duden flows by their place and supplies.</p>
+        </div>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="col-md-3 d-flex align-items-start">
+        <i class="bi bi-palette-fill fs-1 text-warning me-3"></i>
+        <div class="text-start">
+          <h5>Football Schools
+</h5>
+          <p class="mb-0">A small river named Duden flows by their place and supplies.</p>
+        </div>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="col-md-3 d-flex align-items-start">
+        <i class="bi bi-shield-lock-fill fs-1 text-warning me-3"></i>
+        <div class="text-start">
+          <h5>Basic Tactics
+</h5>
+          <p class="mb-0">A small river named Duden flows by their place and supplies.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="container-fluid text-center" 
+       style="background: url('Images/bg_3.jpeg') center/cover no-repeat; 
+              position:relative; padding:100px 0;">
+    
+    <!-- Dark Overlay -->
+    <div style="background-color: rgba(0,0,0,0.8); position:absolute; top:0; left:0; width:100%; height:100%;"></div>
+
+    <!-- Content -->
+    <div class="position-relative">
+      <p class="text-uppercase text-white">Team Squad</p>
+      <h1 class="text-white">Our Team <span class="text-warning">Squad</span></h1>
+      <p class="text-white-50">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+
+      <!-- Carousel -->
+      <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- First Slide -->
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-2">
+                <img src="Images/staff-1.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-white d-block mx-auto"
+                     style="width:100px; height:100px; object-fit:cover;">
+                <h5 class="mt-2 text-white">David Scott</h5>
+                <p class="text-white-50">Running Back</p>
+              </div>
+              <div class="col-md-2">
+                <img src="Images/staff-2.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-white d-block mx-auto"
+                     style="width:100px; height:100px; object-fit:cover;">
+                <h5 class="mt-2 text-white">David Scott</h5>
+                <p class="text-white-50">Center</p>
+              </div>
+              <div class="col-md-2">
+                <img src="Images/staff-3.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-white d-block mx-auto"
+                     style="width:100px; height:100px; object-fit:cover;">
+                <h5 class="mt-2 text-white">David Scott</h5>
+                <p class="text-white-50">Offensive Guard</p>
+              </div>
+              <div class="col-md-2">
+                <img src="Images/staff-4.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-white d-block mx-auto"
+                     style="width:100px; height:100px; object-fit:cover;">
+                <h5 class="mt-2 text-white">David Scott</h5>
+                <p class="text-white-50">Wide Receiver</p>
+              </div>
+              <div class="col-md-2">
+                <img src="Images/staff-5.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-white d-block mx-auto"
+                     style="width:100px; height:100px; object-fit:cover;">
+                <h5 class="mt-2 text-white">David Scott</h5>
+                <p class="text-white-50">Tight End</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Slide -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-2">
+                <img src="Images/staff-6.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-white d-block mx-auto"
+                     style="width:100px; height:100px; object-fit:cover;">
+                <h5 class="mt-2 text-white">David Scott</h5>
+                <p class="text-white-50">Tight End</p>
+              </div>
+              <div class="col-md-2">
+                <img src="Images/staff-7.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-white d-block mx-auto"
+                     style="width:100px; height:100px; object-fit:cover;">
+                <h5 class="mt-2 text-white">David Scott</h5>
+                <p class="text-white-50">Quarter Back</p>
+              </div>
+              <div class="col-md-2">
+                <img src="Images/staff-1.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-white d-block mx-auto"
+                     style="width:100px; height:100px; object-fit:cover;">
+                <h5 class="mt-2 text-white">David Scott</h5>
+                <p class="text-white-50">Runing Back</p>
+              </div>
+              <div class="col-md-2">
+                <img src="Images/staff-2.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-white d-block mx-auto"
+                     style="width:100px; height:100px; object-fit:cover;">
+                <h5 class="mt-2 text-white">David Scott</h5>
+                <p class="text-white-50">Center</p>
+              </div>
+              <div class="col-md-2">
+                <img src="Images/staff-3.jpeg" 
+                     class="img-fluid rounded-circle border border-3 border-white d-block mx-auto"
+                     style="width:100px; height:100px; object-fit:cover;">
+                <h5 class="mt-2 text-white">David Scott</h5>
+                <p class="text-white-50">Defensive</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <!-- Indicators -->
+        <!-- <div class="carousel-indicators mt-4">
+          <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="1"></button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left: Image -->
+      <div class="col-md-6 text-center">
+        <img src="Images/about.jpeg"
+             class="img-fluid" alt="Player">
+      </div>
+      
+      <!-- Right: Text + Stats -->
+      <div class="col-md-6">
+        <h3 class="fw-bold">About the Knights Team</h3>
+        <p class="text-muted">
+          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+          Even the all-powerful Pointing has no control about the blind texts it is an almost 
+          unorthographic life One day however a small line of blind text by the name of Lorem Ipsum 
+          decided to leave for the far World of Grammar.
+        </p>
+
+        <div class="row text-center mt-4">
+          <div class="col-6 col-md-3 mb-3">
+            <h5 class="fw-bold">100</h5>
+            <p class="text-muted mb-0">Game Played</p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <h5 class="fw-bold">10</h5>
+            <p class="text-muted mb-0">Coaches</p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <h5 class="fw-bold">20</h5>
+            <p class="text-muted mb-0">Trophies</p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <h5 class="fw-bold">80</h5>
+            <p class="text-muted mb-0">Members</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= Testimonials Section ================= -->
+<section class="py-5 text-white" 
+         style="background: url('Images/bg_2.jpeg') center/cover no-repeat; position:relative;">
+  
+  <!-- Overlay -->
+  <div style="background-color: rgba(0,0,0,0.7); position:absolute; top:0; left:0; width:100%; height:100%;"></div>
+  
+  <div class="container position-relative">
+    <div class="text-center mb-5">
+      <p class="text-uppercase">Testimonial</p>
+      <h2 class="fw-bold">Happy Viewers</h2>
+    </div>
+
+    <!-- Carousel -->
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Testimonial 1 -->
+        <div class="carousel-item active text-center">
+          <img src="Images/person_1.jpeg" 
+               class="rounded-circle border border-3 border-white mb-3" 
+               style="width:80px; height:80px; object-fit:cover;" alt="Client">
+          <p class="fst-italic">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."</p>
+          <h6 class="fw-bold mb-0">Arthur Browner</h6>
+          <small class="text-white-50">Viewer</small>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="carousel-item text-center">
+          <img src="Images/person_2.jpeg" 
+               class="rounded-circle border border-3 border-white mb-3" 
+               style="width:80px; height:80px; object-fit:cover;" alt="Client">
+          <p class="fst-italic">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."</p>
+          <h6 class="fw-bold mb-0">Arthur Browner</h6>
+          <small class="text-white-50">Viewer</small>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="carousel-item text-center">
+          <img src="Images/person_3.jpeg" 
+               class="rounded-circle border border-3 border-white mb-3" 
+               style="width:80px; height:80px; object-fit:cover;" alt="Client">
+          <p class="fst-italic">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."</p>
+          <h6 class="fw-bold mb-0">Arthur Browner</h6>
+          <small class="text-white-50">Viewer</small>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="carousel-item text-center">
+          <img src="Images/person_4.jpeg" 
+               class="rounded-circle border border-3 border-white mb-3" 
+               style="width:80px; height:80px; object-fit:cover;" alt="Client">
+          <p class="fst-italic">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."</p>
+          <h6 class="fw-bold mb-0">Arthur Browner</h6>
+          <small class="text-white-50">Viewer</small>
+        </div>
+
+        <!-- Testimonial 5 -->
+        <div class="carousel-item text-center">
+          <img src="https://randomuser.me/api/portraits/men/22.jpg" 
+               class="rounded-circle border border-3 border-white mb-3" 
+               style="width:80px; height:80px; object-fit:cover;" alt="Client">
+          <p class="fst-italic">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."</p>
+          <h6 class="fw-bold mb-0">Arthur Browner</h6>
+          <small class="text-white-50">Viewer</small>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+      <!-- Indicators
+      <div class="carousel-indicators mt-3">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="4"></button>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recent News & Footer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body> -->
+
+<!-- Recent News Section -->
+<section class="py-5">
+  <div class="container text-center">
+    <p class="text-uppercase text-muted mb-2">Blog</p>
+    <h2 class="fw-bold mb-5">Recent News</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card">
+          <img src="Images/image_1.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="mb-1 fw-bold">08 March 2019</p>
+            <p class="mb-0">Why Lead Generation is Key for Business Growth</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="Images/image_2.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="mb-1 fw-bold">07 March 2019</p>
+            <p class="mb-0">Why Lead Generation is Key for Business Growth</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="Images/image_3.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="mb-1 fw-bold">07 March 2019</p>
+            <p class="mb-0">Why Lead Generation is Key for Business Growth</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="Images/image_4.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="mb-1 fw-bold">06 March 2019</p>
+            <p class="mb-0">Why Lead Generation is Key for Business Growth</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Subscribe Section with Background -->
+<section class="py-5 text-center text-white" style="background:url('Images/bg_1.jpeg') center/cover no-repeat;">
+  <div class="container">
+    <h3 class="fw-bold mb-4">Subscribe to our upcoming match</h3>
+    <form class="d-flex justify-content-center">
+      <input type="email" class="form-control w-50 me-2" placeholder="Enter email address">
+      <button class="btn btn-warning">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white pt-5 pb-3" style="background:#000;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h5 class="fw-bold">Knights</h5>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+        <div>
+          <a href="#" class="btn btn-warning btn-sm rounded-circle me-2"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="btn btn-warning btn-sm rounded-circle me-2"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="btn btn-warning btn-sm rounded-circle"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h5 class="fw-bold">Have a Questions?</h5>
+        <p class="mb-1">203 Fake St. Mountain View, San Francisco, California, USA</p>
+        <p class="mb-1">+2 392 3929 210</p>
+        <p class="mb-0">info@yourdomain.com</p>
+      </div>
+    </div>
+    <hr class="border-secondary">
+    <div class="text-center">
+      <small>Copyright ©2025 All rights reserved | This template is made with ❤️ by Colorlib</small>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
